@@ -1,6 +1,6 @@
 # Stock-Price-Predictor
 
-Built a Long Short Term Network architecture to predict the trends of Google's stock price for the month of November 2019 with a ~95% relative accuracy.
+Built a Long Short Term Network (LSTM) architecture to predict the trends of Google's stock price for the month of November 2019 with a ~95% relative accuracy.
 
 Developed in the Spyder IDE using NumPy, Pandas and Scikit-learn for data processing, Keras and Scikit-learn for 
 training/iterating on model, and Matplotlib for visualizing the results.
@@ -14,4 +14,4 @@ such as k-fold cross validation as I did for my previous project Customer Churn 
 
 Another thing to look into is building a completely different model through reinforcement learning, and simulating the model buying stocks so that I could evaluate its performance.
 
-Built as part of the Deep Learning A-Z Udemy course: https://www.udemy.com/course/deeplearning/
+This project was built as part of the Deep Learning A-Z Udemy course: https://www.udemy.com/course/deeplearning/
