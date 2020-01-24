@@ -2,16 +2,24 @@
 
 Built a Long Short Term Network (LSTM) architecture to predict the trends of Google's stock price for the month of November 2019 with a ~95% relative accuracy.
 
-Developed in the Spyder IDE using NumPy, Pandas and Scikit-learn for data processing, Keras and Scikit-learn for 
-training/iterating on model, and Matplotlib for visualizing the results.
+# Getting Started
+- Download built_lstm.py, Full_Google_Test_Data.csv, and Full_Google_Training_Data.csv into the same folder
+- Run built_lstm.py
 
-Running built_lstm.py and importing the Full_Google_Test_Data.csv and Full_Google_Training_Data.csv datasets should enable you 
-to be able to plug and play with it as well.
+# Built With
+- **The environment:** [Spyder IDE](https://www.spyder-ide.org/)
+- **Data Processing:** [NumPy](https://numpy.org/), [Pandas](https://pandas.pydata.org/), and [Scikit-learn](https://scikit-learn.org/stable/index.html) 
+- **Model Training/Iterating:** [Keras](https://keras.io/) and [Scikit-learn](https://scikit-learn.org/stable/index.html)
+- **Data Visualization:** [Matplotlib](https://matplotlib.org/)
+- **Education:** Part of the [Deep Learning A-Z Udemy course](https://www.udemy.com/course/deeplearning/)
 
-Steps to further improve on this model and skillset would be to create a more robust predictor, taking into account more 
-factors other than the stock price (ex: looking at other relevant companies/financial indicators), and to implement techniques
-such as k-fold cross validation as I did for my previous project Customer Churn Predictor. 
+# Next Steps For Improvement
+- Create a more robust predictor, taking into account more factors other than the stock price such as other relevant companies/financial indicators
+- Implement techniques such as k-fold cross validation as I did for my previous project Customer Churn Predictor
+- Building a completely different model through reinforcement learning
 
-Another thing to look into is building a completely different model through reinforcement learning, and simulating the model buying stocks so that I could evaluate its performance.
+# Author
+- **Rikard Saqe** [Github](https://github.com/rikardsaqe/)
 
-This project was built as part of the Deep Learning A-Z Udemy course: https://www.udemy.com/course/deeplearning/
+# License
+- This project is licensed under the MIT License, see the [LICENSE.txt](https://github.com/rikardsaqe/Stock-Price-Predictor/blob/master/LICENSE) file for details
